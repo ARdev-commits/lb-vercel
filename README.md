@@ -1,6 +1,6 @@
 # Lakebase for Manufacturing
 
-A 6-page Next.js app that makes the case for Databricks Lakebase to a manufacturer already on the Databricks platform.
+A 7-page Next.js app that makes the case for Databricks Lakebase to a manufacturer already on the Databricks platform.
 
 | # | Page | Route |
 |---|------|-------|
@@ -9,7 +9,8 @@ A 6-page Next.js app that makes the case for Databricks Lakebase to a manufactur
 | 3 | Supply Chain & Inventory Control Tower | `/use-cases/supply-chain-control-tower` |
 | 4 | Plant-Floor AI Agents & Operator Copilot | `/use-cases/plant-floor-ai-agents` |
 | 5 | Cost & Time Savings (interactive calculator) | `/savings` |
-| 6 | Example App — built with AI dev tools | `/example-app` |
+| 6 | Pricing Model & Levers (Lakebase vs AWS RDS explorer) | `/pricing` |
+| 7 | Example App — built with AI dev tools | `/example-app` |
 
 `/` redirects to page 1.
 
@@ -34,6 +35,7 @@ Or push to GitHub and import the repo at vercel.com/new — no environment varia
 
 - Use-case content: `lib/content.ts`
 - Cost model and default rates: `lib/costModel.ts` (all rates are also editable in the UI)
+- Pricing explorer model and list rates: `lib/pricing.ts`
 - Example app steps: `app/example-app/page.tsx`
 
 Default prices are illustrative. Before presenting, replace them with the customer's contracted Databricks rate

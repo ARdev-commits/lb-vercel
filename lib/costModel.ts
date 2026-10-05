@@ -59,13 +59,13 @@ export const DEFAULT_INPUTS: Inputs = {
 
 // Illustrative list-price style assumptions. Every value is editable in the UI.
 export const DEFAULT_RATES: Rates = {
-  lbCuHr: 0.13,
+  lbCuHr: 0.092,  // AWS list, autoscaling
   lbGbPerCu: 2,
   lbAlwaysOnDisc: 0.25,
-  lbStorageGbMo: 0.35,
+  lbStorageGbMo: 0.345,
   lbSyncMo: 90,
   lbBranchChangePct: 10,
-  rdsGbHr: 0.0141,   // ~ db.r6g.large $0.225/hr ÷ 16 GB
+  rdsGbHr: 0.0149,   // db.r7g.large $0.239/hr ÷ 16 GB (us-east-1)
   rdsStorageGbMo: 0.115,
   ec2GbHr: 0.0063,   // ~ r6g.large $0.1008/hr ÷ 16 GB
   ebsGbMo: 0.08,

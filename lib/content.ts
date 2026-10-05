@@ -6,6 +6,7 @@ export const NAV: NavItem[] = [
   { href: "/use-cases/supply-chain-control-tower", label: "Supply Chain Control Tower", short: "Use case 3" },
   { href: "/use-cases/plant-floor-ai-agents", label: "Plant-Floor AI Agents", short: "Use case 4" },
   { href: "/savings", label: "Cost & Time Savings", short: "Comparison" },
+  { href: "/pricing", label: "Pricing Model & Levers", short: "Pricing" },
   { href: "/example-app", label: "Example App", short: "Build it" },
 ];
 
